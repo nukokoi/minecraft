@@ -17,7 +17,7 @@ spigot関係も含めてGCPのことも追記していく予定
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }} [{{post.date | date: "%Y-%m-%d %H:%M"}}]</a>
+      <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }} [{{post.date | date: "%Y-%m-%d"}}]</a>
     </li>
   {% endfor %}
 </ul>
