@@ -5,7 +5,6 @@ layout: default
 
 ---
 
-<script src="//adm.shinobi.jp/s/866d547b0b4324617e6920c3bac0a34c"></script>
 
 
 ## Hello world
@@ -22,4 +21,3 @@ spigot関係も含めてGCPのことも追記していく予定
   {% endfor %}
 </ul>
 
-<script src="//adm.shinobi.jp/s/866d547b0b4324617e6920c3bac0a34c"></script>
