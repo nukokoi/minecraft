@@ -40,5 +40,4 @@ layout: default
   {% endfor %}
 </ul>
 </div>
-
 </div>
