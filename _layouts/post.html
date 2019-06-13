@@ -2,13 +2,20 @@
 layout: default
 ---
 
+<div class="jumbotron p-4 p-md-5 rounded">
+<div class="col-md-8">
 <h1>{{ page.title }}</h1>
 
 {{ content }}
 
+<a href=
 {% if jekyll.environment == "production" %}
-[<a href="{{site.folder_url| prepend:site.url}}/">Back</a>]
+"{{site.folder_url| prepend:site.url}}/"
 {%else%}
-[<a href="{{site.url}}/">Back</a>]
+"{{site.url}}/"
 {% endif %}
+ class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Back</a>
 <br>
+
+</div>
+</div>

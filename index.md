@@ -6,16 +6,6 @@ layout: default
 ---
 
 
-<div class="container">
-    <header class="blog-header py-3">
-    <div class="row">
-    <div class="col-3 pt-1"></div>
-    <div class="col-6 text-center">
-        <p class="h3">minecraft開発日誌</p>
-    </div>
-    <div class="col-3"></div>
-    </div>
-    </header>
 
 <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
     <div class="col-md-8 px-0">
@@ -39,5 +29,4 @@ layout: default
     </li>
   {% endfor %}
 </ul>
-</div>
 </div>
