@@ -2,7 +2,13 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>
+        {%if page.title %}
+        {{ page.title}} | {{ site.title}}
+        {% else %}
+        {{ page.title | default: site.title}}
+        {% endif %}
+    </title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
