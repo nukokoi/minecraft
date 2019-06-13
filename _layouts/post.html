@@ -6,5 +6,9 @@ layout: default
 
 {{ content }}
 
-[<a href="{{site.baseurl| prepend:site.url}}/">Back</a>]
+{% if jekyll.environment == "production" %}
+[<a href="{{site.folder_url| prepend:site.url}}/">Back</a>]
+{%else%}
+[<a href="{{site.url}}/">Back</a>]
+{% endif %}
 <br>
