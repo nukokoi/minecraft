@@ -1,10 +1,15 @@
 port: 8080
 folder_url: /minecraft
-highlighter: rouge
 title: "minecraft diary"
 paginate: 3
 paginate_path: "page:num"
 
+markdown: kramdown
+highlighter: rouge
+kramdown:
+   input: GFM #Github Flavored Markdown
+   hard_wrap: false  
+   syntax_highlighter: rouge
 
 plugins:
     - jemoji
